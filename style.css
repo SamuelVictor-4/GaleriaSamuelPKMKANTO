@@ -26,3 +26,19 @@ img{
         }
     }
 }
+
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+tr:nth-child(even){
+    background-color: red;
+}
+tr:hover{
+    background-color: black;
+    color: white;
+}
+img:nth-child(even){
+    transform: rotate(10deg);
+}
